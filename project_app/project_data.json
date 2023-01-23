@@ -1,0 +1,23 @@
+{
+    "Gender": {
+        "Female": 0,
+        "Male": 1
+    },
+    "Stream": {
+        "Computer Science": 1,
+        "Information Technology": 2,
+        "Electronics And Communication": 3,
+        "Mechanical": 4,
+        "Electrical": 5,
+        "Civil": 6
+    },
+    "columns": [
+        "Age",
+        "Gender",
+        "Stream",
+        "Internships",
+        "CGPA",
+        "Hostel",
+        "HistoryOfBacklogs"
+    ]
+}

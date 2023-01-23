@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title> Student Placement </title>
+      <h1>  
+         <body bgcolor="White"> 
+            <center>
+               Welcome to student placement forum Prediction
+            </center> 
+         </h1>
+      </body>
+   </head>
+   <body align = "center" bgcolor="#008080">
+      <form action = "/result" method = "POST">
+  
+         <label>Enter Age:</label>
+         <input type = "number" name = "Age" placeholder="Enter Age"/></br></br>
+
+         <label> Gender : </label>
+         <input type="radio" name="Gender" value="Male">
+         <label for="Male">Male</label>
+
+         <input type="radio" name="Gender" value="Female">
+         <label for="Female">Female</label><br><br>
+
+         <label> Select Stream : </label>
+         <select name="Stream">
+            <option> Select any below stream </option>
+            <option> Computer Science </option>
+            <option> Electronics And Communication	</option>
+            <option> Information Technology </option>
+            <option> Civil </option>
+            <option> Mechanical </option>
+            <option> Electrical </option>
+         </select><br><br>
+         
+         <label> Select Interships : </label>
+         <select name="Internships">
+            <option> Select any below value </option>
+            <option> 0 </option>
+            <option> 1 </option>
+         </select><br><br>
+
+         <label>Enter CGPA:</label>
+         <input type = "number" name = "CGPA" placeholder="Enter CGPA"/></br></br>
+
+         <label> Select Hostel : </label>
+         <select name="Hostel">
+            <option> Select any below value </option>
+            <option> 0 </option>
+            <option> 1 </option>
+         </select><br><br>
+         
+         <label> Select History of backlog : </label>
+         <select name="HistoryOfBacklogs">
+            <option> Select any below value </option>
+            <option> 0 </option>
+            <option> 1 </option>
+         </select><br><br>
+         
+         <input type = "submit" value = "submit" />
+      </form> 
+      <h3> Placed or not : {{placement}} </h3>
+   </body>
+</html>
